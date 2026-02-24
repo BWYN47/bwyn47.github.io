@@ -1,0 +1,164 @@
+/*#########################################################################################################################################################################*/
+																		/* HTML */
+																				
+html {
+	scroll-behavior: smooth;
+	margin-left: 10px;
+	margin-top: 7px;
+}
+
+/*#########################################################################################################################################################################*/
+																		/* BODY */
+
+body {
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("wp.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	color: white;
+}
+
+/*#########################################################################################################################################################################*/
+																		/* BUTTONS */
+
+button {
+	background-color: skyblue;
+	border-color: black;
+	font-family: cursive;
+	padding: 10px 20px;
+	font-size: 18px;
+	color: black;
+	cursor: pointer;
+	margin-top: 120px;
+}
+
+.home-button button {
+	background-color: skyblue;
+	border-color: black;
+	font-family: cursive;
+	padding: 10px 20px;
+	font-size: 18px;
+	color: black;
+	cursor: pointer;
+	margin-top: 23px;
+}
+
+.skills-button button {
+	background-color: skyblue;
+	border-color: black;
+	font-family: cursive;
+	padding: 10px 20px;
+	font-size: 18px;
+	color: black;
+	cursor: pointer;
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+
+.githubscript button {
+	background-color: skyblue;
+	border-color: black;
+	font-family: cursive;
+	padding: 10px 20px;
+	font-size: 18px;
+	color: black;
+	cursor: pointer;
+	margin-top: 140px;
+	margin-bottom: 0px;
+}
+
+/*#########################################################################################################################################################################*/
+																		/* NAME TITLE */
+
+.fullname {
+	color: white;
+	text-shadow: 1px 1px 0 black, 2px 2px 0 black;
+	font-family: cursive;
+	font-size: 25px;
+	margin-left: 170px;
+	margin-top: 85px;
+}
+
+/*#########################################################################################################################################################################*/
+																		/* IMAGES */
+
+.MyPhoto img {
+	height: 150px;
+	width: 150px;
+	border-radius: 75px;
+	background-color: skyblue;
+	padding: 5px;
+	margin-top: -165px;
+}
+
+/*.my-photo {
+	background-color: skyblue;
+ 	display: block;
+ 	width: 150px;
+ 	height: 150px;
+ 	color: black;
+ 	padding: 5px;
+}*/
+
+/*#########################################################################################################################################################################*/
+																		/* ABOUT & GOALS SUB-TITLES & TEXT */
+
+.goal-title, .aboutme-title {
+	font-family: cursive;
+	color: skyblue;
+	font-size: 23px;
+	margin-top: 10px;
+	text-decoration: underline;
+}
+
+.about-container {
+	margin-top: 60px;
+	font-family: Helvetica;
+	font-size: 17px;
+	line-height: 1.6;
+
+}
+.goals-container {
+	margin-top: 70px;
+	font-family: Helvetica;
+	font-size: 17px;
+	line-height: 2.0;
+}
+
+/*#########################################################################################################################################################################*/
+																		/* SKILLS */
+
+.skills {
+	font-family: cursive;
+	font-size: 25px;
+}
+
+.skill-header {
+	font-size: 23px;
+	font-family: Helvetica;
+}
+
+.softskillstext p {
+	font-family: Helvetica;
+}
+
+.mainskills p {
+	font-family: Helvetica;
+	color: skyblue;
+}
+
+.softskills p {
+	font-family: Helvetica;
+	color: skyblue;
+}
+
+/*#########################################################################################################################################################################*/
+																		/* PROJECTS */
+
+.bash-project {
+	font-family: cursive;
+	font-size: 25px;
+}
+
+/*#########################################################################################################################################################################*/
