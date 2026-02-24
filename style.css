@@ -13,7 +13,7 @@ html, body {
 	overflow-x: hidden;
 	height: 100%;
 	margin: 0;
-	padding: 0 5%;
+	padding: 0;
 	box-sizing: border-box;
 }
 
@@ -179,6 +179,21 @@ img {
 .herobash-project {
 	font-family: cursive;
 	font-size: 25px;
+}
+
+/*#########################################################################################################################################################################*/
+																		/* PRE */
+pre {
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	overflow-x: auto;
+	max-width: 100%;
+	box-sizing: border-box;
+	padding: 1em;
+}
+
+code {
+	display: block;
 }
 
 /*#########################################################################################################################################################################*/
