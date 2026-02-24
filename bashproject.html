@@ -35,7 +35,7 @@
 # bin/bash - Runs Only If Located In Specified Path                #
 # usr/bin/env bash - Any Bash In User Path (Respects Custom Paths) #
 # && Allows Run Text To Only Display Printf If The Command Runs    #
-# sha256sum update.sh > update.sh.sha256                           #
+# %command% sha256sum update.sh > update.sh.sha256                 #
 ####################################################################
 
 # Checking Integrity of File Before Updating
@@ -54,6 +54,10 @@ printf '\e[32m^^Upgrades^^\e[0m\n'
 sudo snap refresh &&
 printf '\e[32m^^Snap-Updates^^\e[0m\n'
 
+# Updates Available System & User FlatPak Packages & Prints Run Text In Green
+sudo flatpak update --system -y && flatpak update --user -y &&
+printf '\e[32m^^Flatpak-Updates^^\e[0m\n'
+
 # Removes Unused Packages and Configurations & Prints Run Text In Green
 sudo apt autoremove --purge &&
 printf '\e[32m^^Auto-Remove^^\e[0m\n'
@@ -62,8 +66,8 @@ printf '\e[32m^^Auto-Remove^^\e[0m\n'
 sudo apt autoclean &&
 printf '\e[32m^^Auto-Clean^^\e[0m\n'
 
-# Green Message of Script Completion
-printf '\e[35m[---------------------------Personal Script Complete---------------------------]\e[0m\n'
+# Purple Message of Script Completion
+printf '\e[35m[--------------------------------Script Complete-------------------------------]\e[0m\n'
 
 ##################################
 # Printf > Echo                  #
