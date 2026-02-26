@@ -57,7 +57,7 @@ button:hover {
 	font-family: cursive;
 	font-size: 25px;
 	margin-left: 170px;
-	margin-top: 85px; 
+	margin-top: 60px; 
 }
 
 /*#########################################################################################################################################################################*/
@@ -75,7 +75,7 @@ img {
 	border-radius: 75px;
 	background-color: skyblue;
 	padding: 5px;
-	margin-top: -180px;
+	margin-top: -190px;
 	min-height: auto;
 }
 
