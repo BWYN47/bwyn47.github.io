@@ -129,7 +129,7 @@ img {
 	color: skyblue;
 	font-size: 23px;
 	margin-top: 10px;
-	text-decoration: underline;
+	/* text-decoration: underline; */
 }
 
 .about-container {
