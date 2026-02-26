@@ -159,10 +159,6 @@ img {
 	font-family: Helvetica;
 }
 
-.softskillstext p {
-	font-family: Helvetica;
-}
-
 .mainskills p {
 	font-family: Helvetica;
 	color: skyblue;
@@ -190,21 +186,6 @@ img {
 .projects-header {
 	font-size: 23px;
 	font-family: Helvetica;
-}
-
-/*#########################################################################################################################################################################*/
-																		/* PRE */
-pre {
-	white-space: pre-wrap;
-	word-wrap: break-word;
-	overflow-x: auto;
-	max-width: 100%;
-	box-sizing: border-box;
-	padding: 1em;
-}
-
-code {
-	display: block;
 }
 
 /*#########################################################################################################################################################################*/
