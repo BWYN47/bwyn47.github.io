@@ -35,7 +35,7 @@ body {
 button {
 	background-color: skyblue;
 	border-color: black;
-	font-family: fantasy;
+	font-family: cursive;
 	padding: 10px 20px;
 	font-size: 18px;
 	color: black;
@@ -53,8 +53,8 @@ button:hover {
 
 .fullname {
 	color: skyblue;
-	font-family: brush script mt;
-	font-size: 27px;
+	font-family: cursive;
+	font-size: 23px;
 	margin-left: 170px;
 	margin-top: 0px; 
 }
@@ -80,9 +80,9 @@ img {
 																		/* ABOUT & GOALS SUB-TITLES & TEXT */
 
 .goal-title, .aboutme-title {
-	font-family: brush script mt;
+	font-family: cursive;
 	color: skyblue;
-	font-size: 28px;
+	font-size: 23px;
 	margin-top: 0px;
 	/* text-decoration: underline; */
 }
@@ -105,9 +105,9 @@ img {
 																		/* SKILLS */
 
 .tech-skills {
-	font-family: brush script mt;
+	font-family: cursive;
 	color: skyblue;
-	font-size: 35px;
+	font-size: 30px;
 }
 
 .skill-header {
@@ -130,9 +130,9 @@ img {
 }
 
 .soft-skills {
-	font-family: brush script mt;
+	font-family: cursive;
 	color: skyblue;
-	font-size: 35px;
+	font-size: 30px;
 }
 
 .softskillsheader {
@@ -145,9 +145,9 @@ img {
 
 
 .hero-project {
-	font-family: brush script mt;
+	font-family: cursive;
 	color: skyblue;
-	font-size: 32px;
+	font-size: 30px;
 }
 
 .projects-header {
